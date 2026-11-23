@@ -1,0 +1,19 @@
+---
+title: "packages/publication/render-local.toml"
+noindex: true
+---
+
+```toml
+kind = "tool_recipe"
+
+[recipe]
+description = "Render the requested publication locally and return the renderer’s result record."
+capability = "publication-local-render"
+tool_contract = "publication-local-render.v1"
+tool_operation = "render"
+effect_class = "execute"
+input_mapping.workspace = "$.workspace"
+input_mapping.publication = "$.publication"
+evidence.required_fields = ["/status", "/build_selection", "/inputs/sources", "/inventory/identity"]
+evidence.proof_ceiling = "local-publication-render"
+```

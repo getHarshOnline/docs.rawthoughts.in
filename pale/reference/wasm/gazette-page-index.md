@@ -1,0 +1,76 @@
+---
+title: "wasm"
+---
+
+<a id="wasm"></a>
+
+## Enumerations {#enumerations}
+
+- [AuthoringCorrectionKind](/pale/reference/wasm/enumerations/AuthoringCorrectionKind)
+- [AuthoringFieldPresence](/pale/reference/wasm/enumerations/AuthoringFieldPresence)
+- [AuthoringIdentityKind](/pale/reference/wasm/enumerations/AuthoringIdentityKind)
+- [AuthoringIngressClass](/pale/reference/wasm/enumerations/AuthoringIngressClass)
+- [AuthoringInspectionState](/pale/reference/wasm/enumerations/AuthoringInspectionState)
+- [AuthoringInstancePathSegmentKind](/pale/reference/wasm/enumerations/AuthoringInstancePathSegmentKind)
+- [AuthoringLiteralKind](/pale/reference/wasm/enumerations/AuthoringLiteralKind)
+- [AuthoringOccurrenceRole](/pale/reference/wasm/enumerations/AuthoringOccurrenceRole)
+- [AuthoringValueKind](/pale/reference/wasm/enumerations/AuthoringValueKind)
+- [DiagnosticDisposition](/pale/reference/wasm/enumerations/DiagnosticDisposition)
+- [DiagnosticEffectCertainty](/pale/reference/wasm/enumerations/DiagnosticEffectCertainty)
+- [DiagnosticRetry](/pale/reference/wasm/enumerations/DiagnosticRetry)
+- [DiagnosticStage](/pale/reference/wasm/enumerations/DiagnosticStage)
+- [StandaloneAuthoringRole](/pale/reference/wasm/enumerations/StandaloneAuthoringRole)
+- [WorkspaceChangeKind](/pale/reference/wasm/enumerations/WorkspaceChangeKind)
+- [WorkspaceDerivationRule](/pale/reference/wasm/enumerations/WorkspaceDerivationRule)
+- [WorkspaceExplanationFrontier](/pale/reference/wasm/enumerations/WorkspaceExplanationFrontier)
+- [WorkspaceExplanationState](/pale/reference/wasm/enumerations/WorkspaceExplanationState)
+- [WorkspaceFactKind](/pale/reference/wasm/enumerations/WorkspaceFactKind)
+- [WorkspaceImpactState](/pale/reference/wasm/enumerations/WorkspaceImpactState)
+- [WorkspaceProvenanceKind](/pale/reference/wasm/enumerations/WorkspaceProvenanceKind)
+- [WorkspaceSubjectKind](/pale/reference/wasm/enumerations/WorkspaceSubjectKind)
+- [WorkspaceSubjectMembership](/pale/reference/wasm/enumerations/WorkspaceSubjectMembership)
+- [WorkspaceValueComparison](/pale/reference/wasm/enumerations/WorkspaceValueComparison)
+
+## Classes {#classes}
+
+- [AuthoringCorrection](/pale/reference/wasm/classes/AuthoringCorrection)
+- [AuthoringFieldFact](/pale/reference/wasm/classes/AuthoringFieldFact)
+- [AuthoringIdentity](/pale/reference/wasm/classes/AuthoringIdentity)
+- [AuthoringIngressLimits](/pale/reference/wasm/classes/AuthoringIngressLimits)
+- [AuthoringInspection](/pale/reference/wasm/classes/AuthoringInspection)
+- [AuthoringInstancePathSegment](/pale/reference/wasm/classes/AuthoringInstancePathSegment)
+- [AuthoringLiteral](/pale/reference/wasm/classes/AuthoringLiteral)
+- [AuthoringLiteralFact](/pale/reference/wasm/classes/AuthoringLiteralFact)
+- [AuthoringNavigation](/pale/reference/wasm/classes/AuthoringNavigation)
+- [AuthoringNodeFact](/pale/reference/wasm/classes/AuthoringNodeFact)
+- [AuthoringOccurrence](/pale/reference/wasm/classes/AuthoringOccurrence)
+- [AuthoringOccurrencePage](/pale/reference/wasm/classes/AuthoringOccurrencePage)
+- [AuthoringOccurrencePageCursor](/pale/reference/wasm/classes/AuthoringOccurrencePageCursor)
+- [AuthoringPathSegment](/pale/reference/wasm/classes/AuthoringPathSegment)
+- [AuthoringSourceLocation](/pale/reference/wasm/classes/AuthoringSourceLocation)
+- [ContractBundleIdentity](/pale/reference/wasm/classes/ContractBundleIdentity)
+- [ContractSchema](/pale/reference/wasm/classes/ContractSchema)
+- [DiagnosticProjection](/pale/reference/wasm/classes/DiagnosticProjection)
+- [NativeActionDescriptor](/pale/reference/wasm/classes/NativeActionDescriptor)
+- [Pale](/pale/reference/wasm/classes/Pale)
+- [PortableWorkspaceComparison](/pale/reference/wasm/classes/PortableWorkspaceComparison)
+- [PortableWorkspaceCompilation](/pale/reference/wasm/classes/PortableWorkspaceCompilation)
+- [PortableWorkspaceDocument](/pale/reference/wasm/classes/PortableWorkspaceDocument)
+- [PortableWorkspaceRequest](/pale/reference/wasm/classes/PortableWorkspaceRequest)
+- [ValidatedContractDocument](/pale/reference/wasm/classes/ValidatedContractDocument)
+- [WorkspaceCausalStep](/pale/reference/wasm/classes/WorkspaceCausalStep)
+- [WorkspaceChangeRoot](/pale/reference/wasm/classes/WorkspaceChangeRoot)
+- [WorkspaceChangeRootPage](/pale/reference/wasm/classes/WorkspaceChangeRootPage)
+- [WorkspaceExplanation](/pale/reference/wasm/classes/WorkspaceExplanation)
+- [WorkspaceFact](/pale/reference/wasm/classes/WorkspaceFact)
+- [WorkspaceImpact](/pale/reference/wasm/classes/WorkspaceImpact)
+- [WorkspaceImpactPage](/pale/reference/wasm/classes/WorkspaceImpactPage)
+- [WorkspaceProvenance](/pale/reference/wasm/classes/WorkspaceProvenance)
+- [WorkspaceSubject](/pale/reference/wasm/classes/WorkspaceSubject)
+- [WorkspaceSubjectComparison](/pale/reference/wasm/classes/WorkspaceSubjectComparison)
+
+## Variables {#variables}
+
+- [SCHEMA\_MANIFEST\_SHA256](/pale/reference/wasm/variables/SCHEMA_MANIFEST_SHA256)
+- [SCHEMA\_REGISTRY\_ID](/pale/reference/wasm/variables/SCHEMA_REGISTRY_ID)
+- [SCHEMA\_SET\_SHA256](/pale/reference/wasm/variables/SCHEMA_SET_SHA256)

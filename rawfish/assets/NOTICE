@@ -1,0 +1,16 @@
+RawFish
+Copyright © 2026 RawThoughts Enterprises Private Limited, in its modifications
+and the files it added.
+Author and originator of those modifications and additions: Harsh Joshi.
+
+RawFish is a modified version of MiroFish (666ghj/MiroFish), which is licensed
+under AGPL-3.0 and is RawFish's upstream. LICENSE is that licence, unchanged,
+and LICENSE-ADDITIONS.md says what RawFish's modifications and additions are
+and that they are AGPL-3.0-or-later. This repository holds no copyright line
+from the upstream project beyond that licence text. Alternative terms require
+a separate written agreement with RawThoughts Enterprises Private Limited and
+cannot cover upstream code.
+
+The cockpit self-hosts Noto Sans and JetBrains Mono (frontend/public/fonts)
+under the SIL Open Font License 1.1; their texts are in THIRD_PARTY_LICENSES.
+Third-party dependencies retain their own terms.

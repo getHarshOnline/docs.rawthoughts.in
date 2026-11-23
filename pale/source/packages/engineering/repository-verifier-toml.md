@@ -1,0 +1,19 @@
+---
+title: "packages/engineering/repository-verifier.toml"
+noindex: true
+---
+
+```toml
+kind = "tool_recipe"
+
+[recipe]
+description = "Run the repository’s chosen check and report its result and limits."
+capability = "project-test"
+tool_contract = "repository-verifier.v1"
+tool_operation = "verify"
+effect_class = "execute"
+input_mapping.repository_id = "$.repository_id"
+evidence.required_fields = ["/exit_code"]
+evidence.proof_ceiling = "repository-verification"
+evidence.repository_verifier = true
+```

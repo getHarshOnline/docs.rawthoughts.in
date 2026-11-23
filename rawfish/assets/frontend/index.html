@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      // Default to 'en'. Sanitize stale 'zh' (zh.json was removed in the CJK scrub).
+      var _saved = localStorage.getItem('locale');
+      if (!_saved || _saved === 'zh') { _saved = 'en'; try { localStorage.setItem('locale', 'en'); } catch (_) {} }
+      document.documentElement.lang = _saved;
+    </script>
+    <meta charset="UTF-8" />
+    <!-- CSP (defense in depth, paired with DOMPurify to mitigate XSS). Notes:
+         - script-src includes 'unsafe-inline' only because of the inline lang script at the top of this file; removing that script allows tightening the policy.
+         - connect-src includes the local backend by default; if the backend is on another domain, add that domain to connect-src when deploying.
+         - frame-ancestors is not effective in a <meta> tag and is supplemented by server/preview response headers (X-Frame-Options / CSP headers). -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob:; connect-src 'self' http://localhost:5001; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RawFish - cockpit for cohort-driven pre-mortem simulation" />
+    <title>RawFish - Pre-mortem Cockpit</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
