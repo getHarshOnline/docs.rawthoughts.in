@@ -50,9 +50,9 @@ Display label; provider records retain their optional native title separately\.
 
 ### indexed? {#indexed}
 
-> `readonly` `optional` **indexed?**: `Readonly`\<`Partial`\<`Record`\<`"body"` \| `"summary"` \| `"title"` \| `"description"` \| `"route"` \| `"notes"`, `string`\>\> \& `Partial`\<`Record`\<`"keywords"` \| `"projects"`, readonly `string`\[\]\>\>\>
+> `readonly` `optional` **indexed?**: `Readonly`\<`Partial`\<`Record`\<`"summary"` \| `"title"` \| `"description"` \| `"route"` \| `"notes"`, `string`\>\> \& \{ `body?`: `string` \| `true`; `keywords?`: readonly `string`\[\]; `projects?`: readonly `string`\[\]; \}\>
 
-Explicit emitted ranking selection; omitted only for the direct complete\-corpus SDK operation\.
+Explicit emitted ranking selection\. A body of true ranks the retained body\.
 
 -----
 

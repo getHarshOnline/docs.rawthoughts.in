@@ -16,6 +16,14 @@ title: "Interface: LoadOptions"
 
 -----
 
+### idleTimeoutMs? {#idletimeoutms}
+
+> `readonly` `optional` **idleTimeoutMs?**: `number`
+
+Optional deadline between response progress, bounded by the overall deadline\.
+
+-----
+
 ### maxBytes {#maxbytes}
 
 > `readonly` **maxBytes**: `number`
@@ -81,3 +89,5 @@ Explicit token processing, not an inferred declaration of document language\.
 ### timeoutMs {#timeoutms}
 
 > `readonly` **timeoutMs**: `number`
+
+Overall acquisition deadline, in milliseconds\.
