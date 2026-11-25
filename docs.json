@@ -6,11 +6,21 @@
     "dark": "#9b3540"
   },
   "name": "RawThoughts",
+  "description": "Build with RawThoughts’ tools. The manuals cover publishing with Gazette, finding the right material with Scope, composing workflows with Weave, working with agents through Pale, and the RawFish reference prototype.",
   "seo": {
     "metatags": {
       "canonical": "https://docs.rawthoughts.in",
       "tdm-reservation": "1",
       "tdm-policy": "https://rawthoughts.in/terms/"
+    },
+    "organization": {
+      "id": "https://rawthoughts.in/#organization",
+      "name": "RawThoughts Enterprises Private Limited",
+      "legalName": "RawThoughts Enterprises Private Limited",
+      "url": "https://rawthoughts.in/",
+      "sameAs": [
+        "https://github.com/getHarshOnline"
+      ]
     }
   },
   "navigation": {
