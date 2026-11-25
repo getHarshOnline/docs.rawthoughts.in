@@ -1,0 +1,45 @@
+# RawThoughts
+
+> Developer guides and reference for RawThoughts.
+
+## Gazette
+
+- [Gazette developer guide](<https://docs.rawthoughts.in/gazette/overview>): Start here
+- [Gazette JavaScript and TypeScript SDK](<https://docs.rawthoughts.in/gazette/sdk/js/overview>): Integrate Gazette
+- [Workspace compilation](<https://docs.rawthoughts.in/gazette/workspace>): Content and sources
+- [Theme contract reference](<https://docs.rawthoughts.in/gazette/theme-reference>): Themes and reader outputs
+- [Render publications locally](<https://docs.rawthoughts.in/gazette/local-rendering>): Build and preview
+- [Mintlify documentation target](<https://docs.rawthoughts.in/gazette/mintlify>): Developer documentation
+- [Output disclosure checks](<https://docs.rawthoughts.in/gazette/output-disclosure>): Release and recovery
+
+## Scope
+
+- [Scope](<https://docs.rawthoughts.in/scope/overview>): Scope design and current scaffold
+- [Scope engineering](<https://docs.rawthoughts.in/scope/engineering>): Scope engineering specification
+- [Admission, trust and authority](<https://docs.rawthoughts.in/scope/engineering/records/admission-trust-and-authority>): Scope records
+
+## Weave
+
+- [Weave](<https://docs.rawthoughts.in/weave/overview>): Weave design
+- [Commercial work](<https://docs.rawthoughts.in/weave/commercial-work>): Domains and integrations
+- [Shared contract design](<https://docs.rawthoughts.in/weave/contracts>): Develop clients
+- [Weave](<https://docs.rawthoughts.in/weave/repository>): Build and verify
+
+## Pale
+
+- [Pale](<https://docs.rawthoughts.in/pale/overview>): Understand Pale
+- [Getting started](<https://docs.rawthoughts.in/pale/getting-started>): Build and embed
+- [Pale CLI](<https://docs.rawthoughts.in/pale/interfaces/cli>): Connect tools and agents
+- [Pale Scene](<https://docs.rawthoughts.in/pale/sdk/scene>): Build integrations
+- [Source layout](<https://docs.rawthoughts.in/pale/source-layout>): Maintain Pale
+
+## RawFish reference prototype
+
+- [RawFish](<https://docs.rawthoughts.in/rawfish/prototype>): Start with the reference prototype
+- [Architecture](<https://docs.rawthoughts.in/rawfish/architecture>): How the prototype works
+- [Extending RawFish](<https://docs.rawthoughts.in/rawfish/contributing/lanes>): Contribute to the reference prototype
+- [Target rebuild product contract](<https://docs.rawthoughts.in/rawfish/rebuild-target>): Fresh rebuild target (unbuilt)
+
+## Full documentation
+
+- [Full developer documentation](<https://docs.rawthoughts.in/llms-full.txt>): Complete guides and generated reference.

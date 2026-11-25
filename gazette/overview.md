@@ -38,7 +38,7 @@ Check a complete configuration from Node and locate a field in its source\.
 
 </CardGroup>
 
-[Publication previews](/gazette/previews) show the accepted designs of six publications made for Gazette, each with its own Theme; none is live yet\.
+[Publications built with Gazette](/gazette/previews) shows six live sites and the Theme each uses\.
 
 ## Extend Gazette {#extend-gazette}
 
